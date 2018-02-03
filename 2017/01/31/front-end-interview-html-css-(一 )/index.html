@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="css 常用布局," />
 
 
 
@@ -79,17 +79,22 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="css 常用布局，一些盒模型包括怪异盒模型，定位布局，流布局，浮动布局，flex  和 grid 布局。 一、三栏布局需求：要求左右两层定宽，中间层宽度自适应优先渲染，且中间层与两边层有固定的边距。  通常使用 浮动、负外边距、相对定位来布局，这是实现布局的最基本的原子技术。 初始思路：中间层自适应使用百分比，两边固定宽度使用 px 或其他绝对单位，三列均使用左浮动。出现的问题：中间层的内容会被两">
+<meta name="keywords" content="css 常用布局">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://jacoblin214.github.io/2017/12/25/hello-world/index.html">
+<meta property="og:title" content="前端面试之 HTML &amp; CSS 部分（一）">
+<meta property="og:url" content="https://jacoblin214.github.io/2017/01/31/front-end-interview-html-css-(一 )/index.html">
 <meta property="og:site_name" content="Jacob&#39;s Notes">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="css 常用布局，一些盒模型包括怪异盒模型，定位布局，流布局，浮动布局，flex  和 grid 布局。 一、三栏布局需求：要求左右两层定宽，中间层宽度自适应优先渲染，且中间层与两边层有固定的边距。  通常使用 浮动、负外边距、相对定位来布局，这是实现布局的最基本的原子技术。 初始思路：中间层自适应使用百分比，两边固定宽度使用 px 或其他绝对单位，三列均使用左浮动。出现的问题：中间层的内容会被两">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-24T16:13:15.503Z">
+<meta property="og:image" content="http://p1s28g7i1.bkt.clouddn.com/three-columns-layout.png">
+<meta property="og:image" content="http://p1s28g7i1.bkt.clouddn.com/there-layout-02.png">
+<meta property="og:image" content="http://p1s28g7i1.bkt.clouddn.com/there-layout-04.png">
+<meta property="og:updated_time" content="2018-02-03T14:56:29.845Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="前端面试之 HTML &amp; CSS 部分（一）">
+<meta name="twitter:description" content="css 常用布局，一些盒模型包括怪异盒模型，定位布局，流布局，浮动布局，flex  和 grid 布局。 一、三栏布局需求：要求左右两层定宽，中间层宽度自适应优先渲染，且中间层与两边层有固定的边距。  通常使用 浮动、负外边距、相对定位来布局，这是实现布局的最基本的原子技术。 初始思路：中间层自适应使用百分比，两边固定宽度使用 px 或其他绝对单位，三列均使用左浮动。出现的问题：中间层的内容会被两">
+<meta name="twitter:image" content="http://p1s28g7i1.bkt.clouddn.com/three-columns-layout.png">
 
 
 
@@ -119,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="https://jacoblin214.github.io/2017/12/25/hello-world/"/>
+  <link rel="canonical" href="https://jacoblin214.github.io/2017/01/31/front-end-interview-html-css-(一 )/"/>
 
 
 
 
 
-  <title>Hello World | Jacob's Notes</title>
+  <title>前端面试之 HTML & CSS 部分（一） | Jacob's Notes</title>
   
 
 
@@ -262,7 +267,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://jacoblin214.github.io/2017/12/25/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://jacoblin214.github.io/2017/01/31/front-end-interview-html-css-(一 )/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="jacoblin214">
@@ -279,7 +284,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">前端面试之 HTML & CSS 部分（一）</h1>
         
 
         <div class="post-meta">
@@ -291,8 +296,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-25T00:13:15+08:00">
-                2017-12-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-31T00:00:00+08:00">
+                2017-01-31
               </time>
             
 
@@ -302,6 +307,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/CSS-相关/" itemprop="url" rel="index">
+                    <span itemprop="name">CSS 相关</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -310,9 +337,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/12/25/hello-world/#comments" itemprop="discussionUrl">
+                <a href="/2017/01/31/front-end-interview-html-css-(一 )/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/12/25/hello-world/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017/01/31/front-end-interview-html-css-(一 )/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -340,15 +367,133 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>css 常用布局，一些盒模型包括怪异盒模型，定位布局，流布局，浮动布局，flex  和 grid 布局。</p>
+<h2 id="一、三栏布局"><a href="#一、三栏布局" class="headerlink" title="一、三栏布局"></a>一、三栏布局</h2><p>需求：要求左右两层定宽，中间层宽度自适应优先渲染，且中间层与两边层有固定的边距。</p>
+<p><img src="http://p1s28g7i1.bkt.clouddn.com/three-columns-layout.png" alt="三列布局"></p>
+<p>通常使用 浮动、负外边距、相对定位来布局，这是实现布局的最基本的原子技术。</p>
+<p>初始思路：中间层自适应使用百分比，两边固定宽度使用 px 或其他绝对单位，三列均使用左浮动。出现的问题：中间层的内容会被两边的层覆盖。这里假设左边栏的宽度为 140px，右边栏的宽度为 120px。</p>
+<h4 id="初始-HTML："><a href="#初始-HTML：" class="headerlink" title="初始 HTML："></a>初始 HTML：</h4><pre><code>&lt;div id=&quot;body&quot;&gt;
+    &lt;div id=&quot;main&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;left-side&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;right=side&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h4 id="初始-CSS："><a href="#初始-CSS：" class="headerlink" title="初始 CSS："></a>初始 CSS：</h4><pre><code> #main {
+    float: left;
+    width: 100%;
+}
+
+#left-side {
+    /* 利用浮动元素的负外边距来定位 */
+    float: left;
+    width: 140px;    
+    margin-left: -100%;
+}
+
+#right-side {
+    /* 利用浮动元素的负外边距来定位 */
+    float: left;
+    width: 120px;
+    margin-left: -120px;
+}
+</code></pre><p><img src="http://p1s28g7i1.bkt.clouddn.com/there-layout-02.png" alt=""></p>
+<p>初始的状态这样的：通过简单的负边距，已经让sub和extra定位到正确的位置。但是中间层的内容被遮挡了，下面我们来设置bd的padding值给左右两个子面板留出空间。</p>
+<pre><code>#body { 
+    padding-left: 160px;
+    padding-right: 140px;
+}    
+</code></pre><p><img src="http://p1s28g7i1.bkt.clouddn.com/there-layout-04.png" alt=""></p>
+<p>这里中间层被左右边栏遮挡了，接下来，介绍两种解决方案。</p>
+<h2 id="二、“圣杯布局”"><a href="#二、“圣杯布局”" class="headerlink" title="二、“圣杯布局”"></a>二、“圣杯布局”</h2><p>解决思路： 在不更改页面的 HTML 结构情况下，在父元素使用通过使用 相对定位 relative 来实现定位，代码如下：</p>
+<h4 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h4><pre><code>#body { 
+    /* 给左右两个子面板留出空间 */
+    padding-left: 160px;
+    padding-right: 140px;
+}    
+
+#main {
+    float: left;
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 140px;
+}
+
+#left-side {
+    /* 利用浮动元素的负外边距来定位 */
+    float: left;
+    width: 140px;    
+    margin-left: -100%;
+
+    /* 新增的代码，相对定位*/
+    position: relative;
+    left: -160px;
+}
+
+#right-side {
+    /* 利用浮动元素的负外边距来定位 */
+    float: left;
+    width: 120px;
+    margin-left: -120px;
+
+    /* 新增的代码，相对定位 */
+    position: relative;
+    right: -140px;
+}
+</code></pre><p>小结：</p>
+<ol>
+<li>三者都设置向左浮动。</li>
+<li>设置 main 宽度为100%</li>
+<li>设置负边距，left-side 设置为负左边距100%，right-side 设置负左边距为自身的宽度。</li>
+<li>设置 body 的 padding 值给左右两个子面板留出空间。</li>
+<li>设置两个子面板为相对定位，分别为各自的负宽度 + 需要的列边距。</li>
+</ol>
+<p>值得注意的是，圣杯布局有个问题，就是当中间 main 层的宽度小于两边栏的宽度时，布局就乱了。<br>预览地址：<a href="https://jecyu.github.io/front-end-development-exercise-book/css-layout/shengbei/index.html" target="_blank" rel="noopener">demo</a></p>
+<h2 id="三、“双飞翼布局”"><a href="#三、“双飞翼布局”" class="headerlink" title="三、“双飞翼布局”"></a>三、“双飞翼布局”</h2><p>解决思路：为了中间 div 内容不被遮挡，直接在中间的 div 内部创建子 div 来放置内容，在该子 div 里用 margin-left 和 margin-right 为左右两栏 div 留出位置。</p>
+<h4 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h4><pre><code>&lt;div id=&quot;body&quot;&gt;
+    &lt;div id=&quot;main&quot;&gt;
+        &lt;div id=&quot;main-inner&quot;&gt;&lt;/div&gt; // ♪(＾∀＾●)ﾉ
+    &lt;/div&gt;
+    &lt;div id=&quot;left-side&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;right=side&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h4 id="CSS-1"><a href="#CSS-1" class="headerlink" title="CSS"></a>CSS</h4><pre><code>#main {
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: #ff7400;
+
+}
+
+/* 新增添的代码 */
+
+#main-inner {
+    /* 给两边栏留足位置 */
+    margin-left: 160px;
+    margin-right: 140px;
+}
+
+/* 这里设置一样 */
+
+#left-side {
+    float: left;
+    width: 140px;
+    margin-left: -100%; 
+
+     height: 200px;
+    background-color: #ff7400;
+
+}
+
+#right-side {
+    float: left;
+    width: 120px;
+    margin-left: -120px; // 右边栏的宽度
+
+     height: 200px;
+    background-color: #ff7400;
+}
+</code></pre><h2 id="四、两种方案对比："><a href="#四、两种方案对比：" class="headerlink" title="四、两种方案对比："></a>四、两种方案对比：</h2><p>“双飞翼”布局是通过新建的div的外边距来隔离各列，在它的子 div 中设置 margin-left 和 margin-right 来为两边栏留足位置，而圣杯布局是通过父容器的内边距来实现各列的间隙。</p>
+<p>“双飞翼”： margin-left, margin-right, 额外的 div。简洁，对响应式更加友好。<br>“圣杯”： position: relative; right, left。  padding-left, padding-right</p>
+<p>（完）</p>
 
       
     </div>
@@ -388,6 +533,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/css-常用布局/" rel="tag"># css 常用布局</a>
+          
+        </div>
+      
 
       
       
@@ -397,8 +548,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/31/front-end-interview-html-css-(一 )/" rel="next" title="前端面试之 HTML & CSS 部分（一）">
-                <i class="fa fa-chevron-left"></i> 前端面试之 HTML & CSS 部分（一）
+              <a href="/2017/01/10/scope & closures/" rel="next" title="作用域与闭包">
+                <i class="fa fa-chevron-left"></i> 作用域与闭包
               </a>
             
           </div>
@@ -407,8 +558,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/12/25/merry-Christmas/" rel="prev" title="2017--从设计到编码，持续学习">
-                2017--从设计到编码，持续学习 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/12/25/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -557,7 +708,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、三栏布局"><span class="nav-number">1.</span> <span class="nav-text">一、三栏布局</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#初始-HTML："><span class="nav-number">1.0.1.</span> <span class="nav-text">初始 HTML：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#初始-CSS："><span class="nav-number">1.0.2.</span> <span class="nav-text">初始 CSS：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、“圣杯布局”"><span class="nav-number">2.</span> <span class="nav-text">二、“圣杯布局”</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#CSS"><span class="nav-number">2.0.1.</span> <span class="nav-text">CSS</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、“双飞翼布局”"><span class="nav-number">3.</span> <span class="nav-text">三、“双飞翼布局”</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML"><span class="nav-number">3.0.1.</span> <span class="nav-text">HTML</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CSS-1"><span class="nav-number">3.0.2.</span> <span class="nav-text">CSS</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、两种方案对比："><span class="nav-number">4.</span> <span class="nav-text">四、两种方案对比：</span></a></li></ol></div>
             
 
           </div>
@@ -727,9 +878,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://jacoblin214.github.io/2017/12/25/hello-world/';
-          this.page.identifier = '2017/12/25/hello-world/';
-          this.page.title = 'Hello World';
+          this.page.url = 'https://jacoblin214.github.io/2017/01/31/front-end-interview-html-css-(一 )/';
+          this.page.identifier = '2017/01/31/front-end-interview-html-css-(一 )/';
+          this.page.title = '前端面试之 HTML & CSS 部分（一）';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://jacob.disqus.com/embed.js';
